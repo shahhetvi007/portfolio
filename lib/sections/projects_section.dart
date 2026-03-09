@@ -60,7 +60,7 @@ class ProjectsSection extends StatelessWidget {
             physics: const NeverScrollableScrollPhysics(),
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: isDesktop ? 3 : 1,
-              childAspectRatio: 0.8,
+              childAspectRatio: 1,
               crossAxisSpacing: 20,
               mainAxisSpacing: 20,
             ),

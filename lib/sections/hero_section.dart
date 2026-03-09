@@ -56,7 +56,7 @@ class HeroSection extends StatelessWidget {
             child: SizedBox(
               width: 600,
               child: Text(
-                "I'm a Flutter Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Openxcell Technolabs.",
+                "I'm a Flutter Developer with 4+ years of experience building scalable cross-platform mobile applications. Strong expertise in Flutter architecture, advanced state management (GetX, RxDart), real-time systems, media streaming, and third-party integrations. Experienced in AI-assisted development workflows using tools like Cursor, ChatGPT, Claude, and Antigravity to accelerate development, debugging, documentation, and test generation.",
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
             ),

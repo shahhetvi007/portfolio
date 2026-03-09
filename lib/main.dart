@@ -159,19 +159,11 @@ class SocialVerticalBar extends StatelessWidget {
       children: [
         _SocialIcon(
           icon: FontAwesomeIcons.github,
-          url: "https://github.com/hetvi-shah",
+          url: "https://github.com/shahhetvi007/",
         ),
         _SocialIcon(
           icon: FontAwesomeIcons.linkedinIn,
-          url: "https://linkedin.com/in/hetvi-shah-3bb52b22b",
-        ),
-        _SocialIcon(
-          icon: FontAwesomeIcons.facebook,
-          url: "https://facebook.com",
-        ),
-        _SocialIcon(
-          icon: FontAwesomeIcons.instagram,
-          url: "https://instagram.com",
+          url: "https://www.linkedin.com/in/hetvishah007/",
         ),
         const SizedBox(height: 20),
         Container(height: 100, width: 1, color: AppTheme.textSecondaryColor),
