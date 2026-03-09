@@ -16,9 +16,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          # Matching SDK from pubspec: ^3.10.4
-          flutter-version: '3.29.0' 
-
+          # Removed specific version to always use latest stable, which will have Dart 3.10.x+
       - name: Install Dependencies
         run: flutter pub get
 
