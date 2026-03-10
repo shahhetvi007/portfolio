@@ -10,6 +10,7 @@ import 'sections/experience_section.dart';
 import 'sections/projects_section.dart';
 import 'sections/skills_section.dart';
 import 'sections/contact_section.dart';
+import 'widgets/mobile_drawer.dart';
 
 void main() {
   runApp(const PortfolioApp());
@@ -104,6 +105,11 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.transparent,
+      endDrawer: MobileDrawer(
+        navItems: _navItems,
+        activeIndex: _activeSectionIndex.value,
+        onNavItemTap: _scrollToSection,
+      ),
       body: AnimatedGradientBackground(
         child: Stack(
           children: [

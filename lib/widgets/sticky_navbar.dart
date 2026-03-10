@@ -57,7 +57,14 @@ class StickyNavbar extends StatelessWidget {
               ],
             )
           else
-            const Icon(Icons.menu, color: AppTheme.primaryColor, size: 30),
+            IconButton(
+              onPressed: () => Scaffold.of(context).openEndDrawer(),
+              icon: const Icon(
+                Icons.menu,
+                color: AppTheme.primaryColor,
+                size: 30,
+              ),
+            ),
         ],
       ),
     );
